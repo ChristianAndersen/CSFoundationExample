@@ -17,6 +17,7 @@
     [super viewDidLoad];
     NSLog(@"Andersen change step 1");
     NSLog(@"AndersenLi change step 1");
+    NSLog(@"AndersenLi change step 2");
 }
 
 
