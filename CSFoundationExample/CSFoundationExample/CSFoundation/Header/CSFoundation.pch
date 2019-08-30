@@ -1,0 +1,13 @@
+//
+//  CSFoundation.pch
+//  CSFoundationExample
+//
+//  Created by dianju on 2019/6/11.
+//  Copyright © 2019 Andersen. All rights reserved.
+//
+
+#ifndef CSFoundation_pch
+#define CSFoundation_pch
+#import "CSCommonFunctions.h"
+
+#endif /* CSFoundation_pch */
