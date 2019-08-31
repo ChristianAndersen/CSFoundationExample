@@ -13,19 +13,7 @@
 @implementation ViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Andersen change step 1");
-    NSLog(@"AndersenLi change step 1");
-    NSLog(@"AndersenLi change step 2");
-    NSLog(@"AndersenLi create new branch");
-    NSLog(@"AndersenLi change step on new branch step 1");
-    NSLog(@"ChristianAndersen change step 3");
-    NSLog(@"AndersenLi change step on new branch step 2");
-    NSLog(@"解决一次冲突");
-    NSLog(@"ChristianAndersen change step on new branch step 1");
-    NSLog(@"AndersenLi change step on new branch step 2");
-    NSLog(@"解决一次冲突");    
-    NSLog(@"ChristianAndersen change step on new branch step 2");
-    NSLog(@"AndersenLi clone repository");
+    NSLog(@"AndersenLi 清楚自己仓库的日志");
 }
 
 
