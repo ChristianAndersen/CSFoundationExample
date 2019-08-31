@@ -8,17 +8,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Andersen change step 1");
     NSLog(@"AndersenLi change step 1");
     NSLog(@"AndersenLi change step 2");
     NSLog(@"AndersenLi create new branch");
+    NSLog(@"AndersenLi change step on new branch step 1");
 }
 
 
