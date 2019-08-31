@@ -14,6 +14,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ChristianAndersen 清除了日志信息");
+    NSLog(@"ChristianAndersen 查看账户的用户名");
 }
 
 
