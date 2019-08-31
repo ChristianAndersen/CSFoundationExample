@@ -14,6 +14,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"AndersenLi 清楚自己仓库的日志");
+    NSLog(@"AndersenLi 查看自己账户的用户名");
 }
 
 
