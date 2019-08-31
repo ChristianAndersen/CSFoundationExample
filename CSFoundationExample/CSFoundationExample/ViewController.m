@@ -22,6 +22,7 @@
     NSLog(@"AndersenLi change step on new branch step 2");
     NSLog(@"解决一次冲突");
     NSLog(@"ChristianAndersen change step on new branch step 1");
+    NSLog(@"AndersenLi change step on new branch step 2");
 }
 
 
