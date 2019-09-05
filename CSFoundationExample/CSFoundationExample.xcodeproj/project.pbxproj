@@ -21,6 +21,8 @@
 		F3B299402318E19A0071F47B /* CSCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B299352318E19A0071F47B /* CSCommonFunctions.m */; };
 		F3B299412318E19A0071F47B /* UIImage+CSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B299392318E19A0071F47B /* UIImage+CSImage.m */; };
 		F3B299422318E19A0071F47B /* NSString+CSString.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2993B2318E19A0071F47B /* NSString+CSString.m */; };
+		F3DDD60D2320E38D00D1963F /* NSObject+CSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DDD60C2320E38D00D1963F /* NSObject+CSThread.m */; };
+		F3DDD6102320EAF700D1963F /* NSDictionary+CSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DDD60F2320EAF700D1963F /* NSDictionary+CSImageInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,10 @@
 		F3B2993A2318E19A0071F47B /* NSString+CSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CSString.h"; sourceTree = "<group>"; };
 		F3B2993B2318E19A0071F47B /* NSString+CSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CSString.m"; sourceTree = "<group>"; };
 		F3B2993C2318E19A0071F47B /* UIImage+CSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CSImage.h"; sourceTree = "<group>"; };
+		F3DDD60B2320E38D00D1963F /* NSObject+CSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSThread.h"; sourceTree = "<group>"; };
+		F3DDD60C2320E38D00D1963F /* NSObject+CSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSThread.m"; sourceTree = "<group>"; };
+		F3DDD60E2320EAF700D1963F /* NSDictionary+CSImageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CSImageInfo.h"; sourceTree = "<group>"; };
+		F3DDD60F2320EAF700D1963F /* NSDictionary+CSImageInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CSImageInfo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +122,10 @@
 		F3B2992B2318E19A0071F47B /* CS_Class */ = {
 			isa = PBXGroup;
 			children = (
-				F3B2992C2318E19A0071F47B /* CSTimer.m */,
-				F3B2992D2318E19A0071F47B /* CSKeyChain.m */,
 				F3B2992E2318E19A0071F47B /* CSTimer.h */,
+				F3B2992C2318E19A0071F47B /* CSTimer.m */,
 				F3B2992F2318E19A0071F47B /* CSKeyChain.h */,
+				F3B2992D2318E19A0071F47B /* CSKeyChain.m */,
 			);
 			path = CS_Class;
 			sourceTree = "<group>";
@@ -153,10 +159,14 @@
 		F3B299382318E19A0071F47B /* CS_Category */ = {
 			isa = PBXGroup;
 			children = (
+				F3B2993C2318E19A0071F47B /* UIImage+CSImage.h */,
 				F3B299392318E19A0071F47B /* UIImage+CSImage.m */,
 				F3B2993A2318E19A0071F47B /* NSString+CSString.h */,
 				F3B2993B2318E19A0071F47B /* NSString+CSString.m */,
-				F3B2993C2318E19A0071F47B /* UIImage+CSImage.h */,
+				F3DDD60B2320E38D00D1963F /* NSObject+CSThread.h */,
+				F3DDD60C2320E38D00D1963F /* NSObject+CSThread.m */,
+				F3DDD60E2320EAF700D1963F /* NSDictionary+CSImageInfo.h */,
+				F3DDD60F2320EAF700D1963F /* NSDictionary+CSImageInfo.m */,
 			);
 			path = CS_Category;
 			sourceTree = "<group>";
@@ -232,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B299292318E18C0071F47B /* MainCell.m in Sources */,
+				F3DDD6102320EAF700D1963F /* NSDictionary+CSImageInfo.m in Sources */,
 				F3B299132318E0FF0071F47B /* ViewController.m in Sources */,
 				F3B2991E2318E0FF0071F47B /* main.m in Sources */,
+				F3DDD60D2320E38D00D1963F /* NSObject+CSThread.m in Sources */,
 				F3B299282318E18C0071F47B /* MainTableView.m in Sources */,
 				F3B299102318E0FF0071F47B /* AppDelegate.m in Sources */,
 				F3B299412318E19A0071F47B /* UIImage+CSImage.m in Sources */,

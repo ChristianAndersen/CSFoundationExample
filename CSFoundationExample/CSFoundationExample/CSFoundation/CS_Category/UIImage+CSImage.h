@@ -23,9 +23,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage *)image:(UIImage *)image rotation:(UIImageOrientation)orientation;
 //裁剪图片
 + (UIImage *)cutImage:(UIImage*)sourceImage rect:(CGRect)rect;
-
+//根据颜色创建图片
 + (UIImage *)imageWithColor:(UIColor *)color;
 + (UIImage *)imageWithColor:(UIColor *)color andFrame:(CGRect)rect andConnerRadius:(double)radius;
+//获取图片宽高比相等对应的高
++ (CGFloat)heightForImage:(UIImage *)image fitWidth:(CGFloat)width;
+
 @end
 
 NS_ASSUME_NONNULL_END

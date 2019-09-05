@@ -9,7 +9,6 @@
 #import "UIImage+CSImage.h"
 
 @implementation UIImage (CSImage)
-
 + (UIImage *)decodeImage:(UIImage *)image toSize:(CGSize)size
 {
     if (image == nil) { // Prevent "CGBitmapContextCreateImage: invalid context 0x0" error
@@ -392,4 +391,14 @@
     UIGraphicsEndImageContext();
     return image;
 }
+
++ (CGFloat)heightForImage:(UIImage *)image fitWidth:(CGFloat)width
+{
+    if (!image) {
+        NSLog(@"heightForImage 图片为空");
+        return 0.0;
+    }
+    return  width/(image.size.width * image.scale) * (image.size.height * image.scale);
+}
+
 @end
