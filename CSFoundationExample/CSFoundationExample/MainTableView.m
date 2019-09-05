@@ -8,6 +8,7 @@
 
 #import "MainTableView.h"
 #import "MainCell.h"
+#import "CSCommonFunctions.h"
 @interface MainTableView()
 @property (nonatomic) NSMutableDictionary* pageSizes;
 @end

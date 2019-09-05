@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 //对字符串base64编码
 #define STRING_TO_BASE64( text ) [ADSFunc stringToBase64String:text]
 //base64字符串解码

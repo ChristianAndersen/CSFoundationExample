@@ -9,6 +9,7 @@
 #import "CSPreloadTableView.h"
 #import <objc/runtime.h>
 #import <pthread.h>
+#import "CSCommonFunctions.h"
 
 @interface CSPreloadTableView()
 @property (nonatomic,assign)pthread_rwlock_t cacheLock;//读写锁，多读单写
