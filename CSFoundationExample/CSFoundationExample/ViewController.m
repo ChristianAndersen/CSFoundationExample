@@ -6,7 +6,7 @@
 //  Copyright © 2019 Andersen. All rights reserved.
 
 #import "ViewController.h"
-
+#import <CSFoundationMsg.h>
 @interface ViewController ()
 @end
 
@@ -17,6 +17,7 @@
     NSLog(@"ChristianAndersen 清除了日志信息");
     NSLog(@"AndersenLi 查看自己账户的用户名");
     NSLog(@"ChristianAndersen 查看账户的用户名");
+    NSLog(@"CSFoundation add %@",[CSFoundationMsg meassageInfo]);
 }
 
 
